@@ -2,6 +2,8 @@
 
 A connected learning website for the WiSe Unity game, with feature guides, a workbook checklist, and linked source snapshots.
 
+[Open the learning website](https://dnubz.github.io/wise-learning-library/)
+
 ## Included
 
 - 32 feature chapters and 19 workbook checklists.
@@ -15,7 +17,7 @@ A connected learning website for the WiSe Unity game, with feature guides, a wor
 
 This repository contains the static website at its root. `.nojekyll` preserves the Markdown content files and publishes the files directly.
 
-The intended Pages configuration is the `main` branch, `/` root. The Pages URL is available in repository Settings → Pages once deployment completes.
+GitHub Pages publishes the `main` branch, `/` root. Deployment status is available in repository Settings → Pages.
 
 The website serves the supplied learning-guide snapshots. It does not automatically update when the Unity source changes. Rebuild the content in the original `LearningWebsite` folder and copy its `dist/` files here to update this version.
 
